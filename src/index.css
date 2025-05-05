@@ -33,15 +33,34 @@
     --light-grayish-blue-hover: hsl(236, 33%, 92%);
 }
 
-#check-box:checked {
+/* TodoItem Component: CHECKBOX */
+.check-todo:checked {
     @apply bg-check-gradient duration-300;
 }
 
-#check-box:checked ~ .check {
+.check-todo:checked ~ .check {
     @apply opacity-100 duration-100;
 }
 
+/* TodoItem Component: TEXT */
+.todo-item {
+    @apply flex items-center gap-4 p-4 border-b border-light-veryLightGrayishBlue dark:border-dark-darkGrayishBlue;
+}
+
+.todo {
+    @apply w-full px-2 cursor-pointer dark:hover:text-dark-lightGrayishBlueHover;
+}
+
+.todo.checked {
+    @apply line-through text-light-lightGrayishBlue dark:text-dark-veryDarkGrayishBlue1;
+}
+
 /* Sorting component */
-span.active {
-    @apply text-primary-blue;
+.category {
+    @apply hover:text-light-veryDarkGrayishBlue cursor-pointer transition-colors duration-150 
+    dark:hover:text-dark-lightGrayishBlue;
+}
+
+.category.active {
+    @apply text-primary-blue dark:text-primary-blue;
 }
