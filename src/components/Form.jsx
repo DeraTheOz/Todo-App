@@ -1,7 +1,7 @@
 export default function Form() {
     return (
         <form
-            className="flex items-center gap-4 mt-8 mb-4 px-4 py-3 bg-light-veryLightGray 
+            className="flex items-center gap-4 mt-8 mb-4 px-4 py-4 bg-light-veryLightGray 
                 dark:bg-dark-veryDarkDesaturatedBlue rounded-md">
             <label
                 htmlFor="check-box"
@@ -28,4 +28,3 @@ export default function Form() {
         </form>
     );
 }
-
