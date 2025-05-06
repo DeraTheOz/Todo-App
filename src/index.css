@@ -33,6 +33,13 @@
     --light-grayish-blue-hover: hsl(236, 33%, 92%);
 }
 
+/* Body */
+.bg-transition {
+    transition-property: background-color, color, border-color, background-image;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+}
+
 /* TodoItem Component: CHECKBOX */
 .check-todo:checked {
     @apply bg-check-gradient duration-300;
@@ -44,7 +51,7 @@
 
 /* TodoItem Component: TEXT */
 .todo-item {
-    @apply flex items-center gap-4 p-4 border-b border-light-veryLightGrayishBlue dark:border-dark-darkGrayishBlue;
+    @apply flex items-center gap-4 p-4 border-b border-light-veryLightGrayishBlue dark:border-dark-veryDarkGrayishBlue1;
 }
 
 .todo {
