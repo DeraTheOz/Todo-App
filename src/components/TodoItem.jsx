@@ -26,6 +26,4 @@ export default function TodoItem() {
             </div>
         </div>
     );
-
-
 }
