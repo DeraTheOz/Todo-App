@@ -1,12 +1,14 @@
-export default function TodoItem() {
+export default function TodoItem({ item, onToggleComplete, onDeleteTodo }) {
     return (
-        <div className="todo-item">
+        <li className="todo-item">
             <label
-                htmlFor="check-box"
+                htmlFor={item.id}
                 className="flex items-center rounded-full cursor-pointer relative">
                 <input
                     type="checkbox"
-                    id="check-box"
+                    id={item.id}
+                    checked={item.completed}
+                    onChange={() => onToggleComplete(item.id)}
                     className="check-todo w-6 h-6 appearance-none cursor-pointer transition border border-light-veryLightgrayishBlue
                      dark:border-dark-veryDarkGrayishBlue1 rounded-full"
                 />
@@ -16,14 +18,19 @@ export default function TodoItem() {
                     className="check absolute w-3 h-3 translate-x-1/2 opacity-0 transition"
                 />
             </label>
-            <p className="todo checke">Complete React Course</p>
-            <div>
+            <p className={`todo ${item.completed ? 'checked' : ''}`}>
+                {item.description}
+            </p>
+            <button
+                aria-label="Delete Todo"
+                onClick={() => onDeleteTodo(item.id)}>
                 <img
                     src="/images/icon-cross.svg"
-                    alt="Remove"
-                    className="cursor-pointer"
+                    alt=""
+                    aria-hidden="true"
+                    className="pointer-events-none"
                 />
-            </div>
-        </div>
+            </button>
+        </li>
     );
 }
