@@ -29,11 +29,10 @@ export default function Header() {
         const newTheme = theme === 'dark' ? 'light' : 'dark';
         setTheme(newTheme);
         applyTheme(newTheme);
-        
     }
 
     return (
-        <div className="flex justify-between">
+        <header className="flex justify-between mt-[2.5rem] lg:mt-[5rem]">
             <h1 className="uppercase text-light-veryLightGray text-3xl font-bold tracking-[.8rem]">
                 Todo
             </h1>
@@ -53,6 +52,6 @@ export default function Header() {
                     className="w-6 h-6 animate-pulse pointer-events-none"
                 />
             </button>
-        </div>
+        </header>
     );
 }
