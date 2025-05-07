@@ -1,44 +1,35 @@
 # 🚀 Supercharge Your Productivity with Todo App! ✨
 
-A sleek and modern React app to manage your tasks effortlessly. Add, edit, sort, complete, or delete todos with a beautiful dark/light mode toggle. 📝☀️🌙
+A sleek and modern React app to manage your tasks effortlessly. Add, edit, sort,
+complete, or delete todos with a beautiful dark/light mode toggle. 📝☀️🌙
 
 ## 💡 Description
 
-This project is a feature-rich Todo app built with React and styled with Tailwind CSS. It provides a clean and intuitive interface for managing your tasks, whether you prefer a light or dark theme. The app leverages local storage to persist your todos, ensuring your data is always available.
+This project is a feature-rich Todo app built with React and styled with
+Tailwind CSS. It provides a clean and intuitive interface for managing your
+tasks, whether you prefer a light or dark theme. The app leverages local storage
+to persist your todos, ensuring your data is always available.
 
 ## ✨ Key Features
 
-- ✅ **Add Tasks**: Quickly add new tasks to your todo list.
-- 🗂️ **Sort Tasks**: Sort tasks to organize your workflow.
-- 💯 **Complete Tasks**: Mark tasks as complete to track your progress.
-- 🗑️ **Delete Tasks**: Remove tasks that are no longer needed.
-- 🌙☀️ **Toggle Theme**: Switch between light and dark mode for comfortable viewing.
-- 💾 **Local Storage**: Persist tasks using local storage, ensuring data is saved across sessions.
-
-### 🖼️ Screenshots
-
-![Active States - Dark Mode](design/active-states-dark.jpg)
-*Active States in Dark Mode*
-
-![Active States - Light Mode](design/active-states-light.jpg)
-*Active States in Light Mode*
-
-![Desktop Design - Dark Mode](design/desktop-design-dark.jpg)
-*Desktop Design in Dark Mode*
-
-![Desktop Design - Light Mode](design/desktop-design-light.jpg)
-*Desktop Design in Light Mode*
-
+-   ✅ **Add Tasks**: Quickly add new tasks to your todo list.
+-   🗂️ **Sort Tasks**: Sort tasks to organize your workflow.
+-   💯 **Complete Tasks**: Mark tasks as complete to track your progress.
+-   🗑️ **Delete Tasks**: Remove tasks that are no longer needed.
+-   🌙☀️ **Toggle Theme**: Switch between light and dark mode for comfortable
+    viewing.
+-   💾 **Local Storage**: Persist tasks using local storage, ensuring data is
+    saved across sessions.
 
 ## 🛠️ Technologies Used
 
-| Technology    | Description                                                        | Link                                                                     |
-| :------------ | :----------------------------------------------------------------- | :----------------------------------------------------------------------- |
-| React         | A JavaScript library for building user interfaces                  | [https://react.dev/](https://react.dev/)                             |
-| Tailwind CSS  | A utility-first CSS framework for rapid UI development             | [https://tailwindcss.com/](https://tailwindcss.com/)                 |
-| Vite          | A fast build tool and development server                          | [https://vitejs.dev/](https://vitejs.dev/)                           |
-| ESLint        | A tool for identifying and reporting on patterns found in ECMAScript/JavaScript code. | [https://eslint.org/](https://eslint.org/)                                      |
-| localStorage  | Web Storage API to store data locally                             | [https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage) |
+| Technology   | Description                                                                           | Link                                                                                                                                         |
+| :----------- | :------------------------------------------------------------------------------------ | :------------------------------------------------------------------------------------------------------------------------------------------- |
+| React        | A JavaScript library for building user interfaces                                     | [https://react.dev/](https://react.dev/)                                                                                                     |
+| Tailwind CSS | A utility-first CSS framework for rapid UI development                                | [https://tailwindcss.com/](https://tailwindcss.com/)                                                                                         |
+| Vite         | A fast build tool and development server                                              | [https://vitejs.dev/](https://vitejs.dev/)                                                                                                   |
+| ESLint       | A tool for identifying and reporting on patterns found in ECMAScript/JavaScript code. | [https://eslint.org/](https://eslint.org/)                                                                                                   |
+| localStorage | Web Storage API to store data locally                                                 | [https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage) |
 
 ## 📄 License
 
@@ -46,8 +37,8 @@ This project is under the [MIT License](LICENSE).
 
 ## 🧑‍💻 Author Info
 
-*   GitHub: [@username](https://github.com/DeraTheOz)
-*   Twitter: [@username](https://twitter.com/deraamaobi)
+-   GitHub: [@username](https://github.com/DeraTheOz)
+-   Twitter: [@username](https://twitter.com/deraamaobi)
 
 ## 🛡️ Badges
 
