@@ -59,13 +59,12 @@
 }
 
 .todo.checked {
-    @apply line-through text-light-lightGrayishBlue dark:text-dark-veryDarkGrayishBlue1;
+    @apply line-through text-light-lightGrayishBlue dark:text-dark-veryDarkGrayishBlue1 transition;
 }
 
 /* Sorting component */
 .category {
-    @apply hover:text-light-veryDarkGrayishBlue cursor-pointer transition-colors duration-150 
-    dark:hover:text-dark-lightGrayishBlue;
+    @apply hover:text-light-veryDarkGrayishBlue cursor-pointer dark:hover:text-dark-lightGrayishBlue;
 }
 
 .category.active {
