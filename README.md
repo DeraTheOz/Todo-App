@@ -1,6 +1,6 @@
 # 🚀 Supercharge Your Productivity with Todo App! ✨
 
-A sleek and modern React app to manage your tasks effortlessly. Add, edit, sort,
+A sleek and modern React app to manage your tasks effortlessly. Add, sort,
 complete, or delete todos with a beautiful dark/light mode toggle. 📝☀️🌙
 
 ## 💡 Description
